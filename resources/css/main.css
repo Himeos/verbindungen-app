@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    background-color: #03131A;
+    overflow: hidden;
+}
+
+.login {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.blue {
+    color: #8FD6E8;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+}
+
+.prompt-bold {
+    font-family: "Prompt", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.green {
+    color: #D4FF9D;
+}
+
+.red {
+    color: #EC5A64;
+}
+
+.container {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.gamelist {
+    list-style-type: none;
+}
+
+.gamelist li {
+    font-size: 25px;
+    color: black;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 300px;
+    background-color: #F8F8F8;
+    font-weight: bold;
+}
+
+.gamelist li:hover {
+    cursor: pointer;
+}
+
+.selected {
+    background-color: #878787 !important;
+}
+
+.nav-link {
+    margin-right: 10px;
+}
+
+
+/*
+.cards {
+    
+}
+*/
+
+#message {
+    font-size: 40px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#time {
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#timer {
+    margin-left: 50px;
+}
+
+#endmessage {
+    font-size: 40px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: fixed;           /* Position it over the game */
+    top: 50%;                  /* Vertically center it */
+    left: 50%;                 /* Horizontally center it */
+    transform: translate(-50%, -50%);  /* Offset the positioning for exact centering */
+    z-index: 1000;             /* Ensure it's above the game content */
+    display: none;             /* Initially hidden */
+}
+
+#endmessage li {
+    list-style-type: none;
+}
+
+#message li {
+    list-style-type: none;
+}
+
+#startButtonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Take up the full vertical height */
+    overflow: hidden;
+}
+
+/* Style the start button */
+#start-button {
+    padding: 20px 40px; /* Increase the padding for a larger button */
+    font-size: 24px; /* Make the font size bigger */
+    font-weight: bold; /* Make the text bold */
+    background-color: #007bff; /* Match the color of the cards */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect */
+#start-button:hover {
+    background-color: #0056b3; /* Darker blue when hovering */
+}
+
+/* Focus effect */
+#start-button:focus {
+    outline: none; /* Remove outline on focus */
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.6); /* Add a shadow effect */
+}
