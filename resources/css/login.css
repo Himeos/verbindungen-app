@@ -36,14 +36,16 @@
     max-width: 100%;
     font-family: "Geist Sans", "SF Pro", sans-serif;
     font-weight: 40;
-    background-color: #3b4148;
+    background-color: gray;
     border-radius: 10px;
     color: #a9a9a9;
     margin-bottom: 1em;
-    padding: 0 16px;
     width: 100%;
     outline: 0;
     height: 50px;
+    padding-left: 10px !important;
+    
+    
   }
   
   label {
