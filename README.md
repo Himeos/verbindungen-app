@@ -9,7 +9,8 @@ Admin accounts can add words and manage content.
 - **Backend:** Laravel 11.34.2
 - **Frontend:** Blade templates (no JS framework used)
 - **Styling:** Tailwind CSS and plain CSS
-Database: MySQL
+- **Database:** MySQL
+- **Additional Features:** JavaScript for interactivity
 ## About Laravel
 Laravel is a web application framework with expressive, elegant syntax. It simplifies common tasks used in many web projects, such as:
 
@@ -89,7 +90,10 @@ Now you can access the game by navigating to http://127.0.0.1:8000 in your brows
 
 ## Demo
 
-![Watch the Game in Action](media/demo.mp4)
+<video width="600" controls>
+  <source src="media/demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 
 
