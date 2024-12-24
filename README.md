@@ -91,4 +91,7 @@ Now you can access the game by navigating to http://127.0.0.1:8000 in your brows
 ## Demo
 https://github.com/user-attachments/assets/1229fcc0-fba2-49e7-a2a5-8ccf8f006562
 
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
