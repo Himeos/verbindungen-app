@@ -6,10 +6,11 @@ Infinite attempts, no time limit or move restrictions.
 Words disappear from the game board after being selected.
 Admin accounts can add words and manage content.
 ## Tech Stack
-Backend: Laravel 11.34.2
-Frontend: Blade templates (no JS framework used)
-Styling: Tailwind CSS and plain CSS
-Database: MySQL
+- **Backend:** Laravel 11.34.2
+- **Frontend:** Blade templates (no JS framework used)
+- **Styling:** Tailwind CSS and plain CSS
+- **Database:** MySQL
+- **Additional Features:** JavaScript for interactivity
 ## About Laravel
 Laravel is a web application framework with expressive, elegant syntax. It simplifies common tasks used in many web projects, such as:
 
@@ -23,14 +24,14 @@ Real-time event broadcasting.
 Laravel provides tools for building large, robust applications.
 
 ## Installation
-Prerequisites
-Make sure you have the following installed:
 
-PHP >= 8.0
-Composer
-Node.js (for front-end dependencies)
-MySQL (or your preferred database)
-Steps to Set Up
+### Prerequisites
+Make sure you have the following installed:
+- PHP >= 8.0
+- Composer
+- Node.js (for front-end dependencies)
+- MySQL (or your preferred database)
+## Steps to Set Up
 Clone this repository to your local machine:
 
 ```bash
@@ -84,7 +85,10 @@ php artisan serve
 Now you can access the game by navigating to http://127.0.0.1:8000 in your browser.
 
 ## Usage
-Start a New Game: Click "Start" to begin a new game.
-Gameplay: Select four words that share a category. Repeat until all words are used up. Words disappear once they are selected.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+- **Start a New Game:** Click "Start" to begin a new game.
+- **Gameplay:** Select four words that share a category. Repeat until all words are used up. Words disappear once they are selected.
+
+## Demo
+https://github.com/user-attachments/assets/1229fcc0-fba2-49e7-a2a5-8ccf8f006562
+
+
