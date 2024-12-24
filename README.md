@@ -89,11 +89,6 @@ Now you can access the game by navigating to http://127.0.0.1:8000 in your brows
 - **Gameplay:** Select four words that share a category. Repeat until all words are used up. Words disappear once they are selected.
 
 ## Demo
-
-<video width="600" controls>
-  <source src="media/demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
+https://github.com/user-attachments/assets/1229fcc0-fba2-49e7-a2a5-8ccf8f006562
 
 
